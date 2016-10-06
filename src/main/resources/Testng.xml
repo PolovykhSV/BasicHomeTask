@@ -1,0 +1,13 @@
+<suite name="Suite1" verbose="1" >
+    <parameter name="adress"  value="https://mail.ru/"/>
+    <parameter name="login"  value="test_testing1"/>
+    <parameter name="password"  value="test123456"/>
+    <parameter name="validate"  value="https://e.mail.ru/messages/inbox/?back=1"/>
+    <test name="Nopackage" >
+        <classes>
+            <class name="LoginEmailBox" />
+        </classes>
+    </test>
+
+
+</suite>
