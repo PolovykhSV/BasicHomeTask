@@ -45,5 +45,6 @@ public class LoginEmailBox {
                }
            });
            System.out.println("Congratulate! Test is successful");
+           driver.quit();
        }
 }
